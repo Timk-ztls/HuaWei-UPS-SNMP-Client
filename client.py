@@ -2,7 +2,7 @@ from snmp_connet import get_formatted_snmp_output
 import time
 
 # 如果是三相电需要修改snmp_connet中的部分参数，如单位 小数点与表留信息自行添加B C相设置
-target_ip = ''
+target_ip = '172.16.1.249'
 community_string = 'snmpread0'
 object_name = 'hwUpsMIB'
 
